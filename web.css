@@ -134,3 +134,11 @@ background-color: white;
     text-align: center;
     
 }
+
+* {
+    scroll-behavior: smooth;
+}
+
+#reco-title {
+    padding-top: 4%;
+}
