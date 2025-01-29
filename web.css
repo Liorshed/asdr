@@ -146,4 +146,42 @@ background-color: white;
 html {
     scroll-behavior: smooth;
   }
+  #gallery-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5%;
+  }
   
+  #gallery-photos img {
+    border: 2px black solid;
+    border-radius: 30px;
+  }
+  
+  #gallery h1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+  }
+  
+  #gallery {
+    background-color: rgba(18, 18, 174, 0.75);
+    border-radius: 30px;
+    margin-top: 10px;
+  }  
+
+  #last-tel {
+    text-decoration: none;
+    color: black;
+  }
+
+  #contacent a {
+    text-decoration: none;
+  }
+
+  * {
+    overflow-x: hidden;
+  }
