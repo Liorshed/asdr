@@ -142,3 +142,8 @@ background-color: white;
 #reco-title {
     padding-top: 4%;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
