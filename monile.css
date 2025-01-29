@@ -1,0 +1,74 @@
+/* Style the navigation menu */
+@media (max-width: 768px){
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #mylinks a.active {
+    color: black;
+    background-color: white;
+    }
+  
+#first-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(Design\ ohne\ Titel\ \(28\).png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    margin-top: 2%;
+    border-radius: 20px;
+    justify-content: center;
+}
+#text-containerh1 {
+    padding: 20px;
+}
+
+#text-containerh1 h1 {
+    font-size: 1.5em;
+}
+
+#text-containerh1 p {
+    font-weight: 600;
+}
+
+#second-section {
+    text-align: center;
+   
+}
+
+#second-section {
+  text-align: center;
+}
+
+  
+
+}
