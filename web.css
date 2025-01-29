@@ -164,13 +164,14 @@ html {
   #gallery h1 {
     text-align: center;
     font-size: 2em;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   #gallery {
-    background-color: rgba(18, 18, 174, 0.75);
+    background-color: rgba(255, 255, 255, 0.95);
     border-radius: 30px;
     margin-top: 10px;
+    color: black;
   }  
 
   #last-tel {
@@ -182,4 +183,28 @@ html {
     text-decoration: none;
   }
 
-   
+   #about-text {
+    text-align: center;
+   }
+
+   #about {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(159, 118, 65);
+    color: white;
+    border: 2px black solid;
+    border-radius: 30px;
+    margin-top: 20px;
+   }
+
+   #about-image img {
+    border-radius: 30px;
+   }
+
+   #about-text h1 {
+    color: black;
+   }
+
+   body {
+    background-color: rgba(16, 56, 121, 0.75);
+   }
