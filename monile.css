@@ -1,5 +1,5 @@
 /* Style the navigation menu */
-@media (max-width: 768px){
+@media (max-width: 1024px){
 .topnav {
     overflow: hidden;
     background-color: #000000;
